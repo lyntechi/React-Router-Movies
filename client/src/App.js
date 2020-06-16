@@ -31,11 +31,11 @@ const App = () => {
   return (
     <div>
       <SavedList list={savedList} />
-
+     
       <div>
         <Switch>
           <Route path="/movies/:id">
-            <Movie movies={movieList} />
+          <Movie />
           </Route>
           <Route path="/">
             <MovieList movies={movieList} />
